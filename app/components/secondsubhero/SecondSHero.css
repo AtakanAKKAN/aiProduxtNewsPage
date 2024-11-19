@@ -1,0 +1,126 @@
+.sub-hero-main {
+  background-color: white;
+  margin-top: 0.5rem;
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  width: 100%;
+}
+
+.sub-hero-top {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 1rem;
+  border-bottom: 1px solid rgb(112, 128, 144, 0.5);
+}
+
+.subhero-ktgr {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  padding: 1rem;
+  color: white;
+  font-weight: 600;
+}
+
+.subhero-ktgr h4 {
+  border-left: red solid 3px;
+  padding-left: 0.6rem;
+  font-size: 1.4rem;
+  cursor: pointer;
+  color: #2f3645;
+}
+
+.subhero-downside {
+  display: flex;
+  gap: 0.2rem;
+  justify-content: center;
+  align-items: center;
+  rotate: 0deg;
+  color: red;
+  margin-top: 0.2rem;
+  cursor: pointer;
+}
+
+.subhero-i {
+  transition: all;
+  transition-duration: 350ms;
+  font-size: 1.2rem;
+  margin-top: 0.2rem;
+  color: white;
+  color: red;
+}
+
+.subhero-downside:hover .subhero-i {
+  rotate: -90deg;
+}
+
+.subhero-pagint {
+  font-size: 3rem;
+  display: flex;
+  gap: 0.2rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-left,
+.btn-right {
+  transition: all;
+  transition-duration: 350ms;
+  cursor: pointer;
+}
+
+.btn-left:hover {
+  transform: translateX(-6px);
+}
+
+.btn-right:hover {
+  transform: translateX(6px);
+}
+
+.sub-hero-main-news-box {
+  max-width: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.sub-hero-news-box {
+  display: flex;
+  gap: 0.5rem;
+  width: calc(33% - 1rem);
+}
+
+.subhero-img-box {
+  width: 100%;
+}
+
+.subhero-img {
+  max-width: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: 50% 70%;
+}
+
+.subhero-news-cntn {
+  display: flex;
+  gap: 0.5rem;
+  flex-direction: column;
+  padding: 0.5rem;
+}
+
+.sbhr-news-cntn-h {
+  font-weight: 500;
+  color: grey;
+}
+
+.sbhr-cntn {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #2f3645;
+}
+
+.subhero-news-i {
+  font-size: 1.2rem;
+}

@@ -1,0 +1,94 @@
+.footer-nav-logo {
+  color: white;
+  background-color: red;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 2rem;
+  font-family: "Sour Gummy", sans-serif;
+  cursor: pointer;
+}
+
+.footer-main-box {
+  padding: 1rem 0;
+}
+
+.footer-boxs {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.footer-info-box {
+  display: flex;
+  gap: 5rem;
+}
+
+.footer-info-link {
+  text-decoration: none;
+  color: white;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-family: "Sour Gummy", sans-serif;
+}
+
+.footer-rights-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  color: white;
+  font-size: 1.1rem;
+}
+
+.footer-icon-box {
+  display: flex;
+  gap: 1.5rem;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: white;
+  font-family: "Sour Gummy", sans-serif;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 800px) {
+  .footer-nav-logo {
+    font-size: 1.5rem;
+  }
+
+  .footer-info-box {
+    display: flex;
+    gap: 0.8rem;
+  }
+
+  .footer-info-link {
+    font-size: 1.3rem;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .footer-nav-logo {
+    font-size: 1rem;
+    padding: 0.25rem 0.5rem;
+  }
+  .footer-info-box {
+    display: flex;
+    gap: 0.5rem;
+  }
+  .footer-info-link {
+    font-size: 0.8rem;
+  }
+
+  .footer-rights-box {
+    gap: 0.5rem;
+    font-size: 0.6rem;
+  }
+
+  .footer-icon-box {
+    gap: 0.7rem;
+    font-size: 1rem;
+  }
+}

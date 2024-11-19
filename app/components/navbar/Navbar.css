@@ -1,0 +1,59 @@
+.nav-ana-kutu {
+  max-width: 100vw;
+  padding: 1rem 0;
+}
+
+.nav-içerik-kutu {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-logo {
+  color: white;
+  background-color: red;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+.nav-kategry {
+  display: flex;
+  justify-content: center;
+  flex: 1;
+  max-width: 100%;
+  gap: 50px;
+  color: grey;
+  font-weight: 600;
+  margin: 0 20px;
+  font-size: 1.2rem;
+}
+
+.nav-ktgry-spn {
+  cursor: pointer;
+  padding: 5px 15px;
+  transition: all;
+  transition-duration: 350ms;
+  border-radius: 8px;
+}
+
+.nav-ktgry-spn:hover {
+  background-color: white;
+}
+
+.nav-btns {
+  font-size: 1.7rem;
+  color: white;
+  margin-top: 0.3rem;
+}
+
+@media screen and (max-width: 1072px){
+
+ 
+  .nav-kategry{
+    display: none;
+  }
+
+}

@@ -1,0 +1,235 @@
+.sub-hero-main {
+  background-color: white;
+  margin-top: 0.5rem;
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+}
+
+.sub-hero-top {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 1rem;
+  border-bottom: 1px solid rgb(112, 128, 144, 0.5);
+}
+
+.subhero-ktgr {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  padding: 1rem;
+  color: white;
+  font-weight: 600;
+}
+
+.subhero-ktgr h4 {
+  border-left: red solid 3px;
+  padding-left: 0.6rem;
+  font-size: 1.4rem;
+  cursor: pointer;
+  color: #2f3645;
+  text-transform: capitalize;
+}
+
+.subhero-downside {
+  display: flex;
+  gap: 0.2rem;
+  justify-content: center;
+  align-items: center;
+  rotate: 0deg;
+  color: red;
+  margin-top: 0.2rem;
+  cursor: pointer;
+  position: relative;
+}
+
+.subhero-i {
+  transition: all;
+  transition-duration: 350ms;
+  font-size: 1.2rem;
+  margin-top: 0.2rem;
+  color: white;
+  color: red;
+}
+
+.subhero-downside:hover .subhero-i {
+  rotate: -90deg;
+}
+
+.subhero-downside:hover .subhero-options {
+  display: flex;
+  height: 100px;
+  visibility: visible;
+}
+
+.subhero-options:hover {
+  display: flex;
+  height: 100px;
+  visibility: visible;
+}
+
+.subhero-options {
+  visibility: hidden;
+  position: absolute;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  top: 1.5rem;
+  left: 2rem;
+  background-color: white;
+  border-radius: 4px;
+  padding: 1rem 2rem;
+  gap: 0.5rem;
+  width: 100%;
+  height: 0px;
+  transition: all;
+  transform: 500ms;
+  cursor: pointer;
+}
+
+.subhero-option {
+  width: 100%;
+  text-transform: capitalize;
+  transition: all;
+  transition-duration: 350ms;
+}
+
+.subhero-option:hover {
+  font-size: 1.3rem;
+}
+
+.subhero-pagint {
+  font-size: 3rem;
+  display: flex;
+  gap: 0.2rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-left,
+.btn-right {
+  transition: all;
+  transition-duration: 350ms;
+  cursor: pointer;
+}
+
+.btn-left:hover {
+  transform: translateX(-6px);
+}
+
+.btn-right:hover {
+  transform: translateX(6px);
+}
+
+.sub-hero-main-news-box {
+  padding: 1rem;
+  max-width: 100%;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+}
+
+.sub-hero-news-box {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.subhero-img-box {
+  width: 100%;
+  display: flex;
+}
+
+.subhero-img {
+  max-width: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.subhero-news-cntn {
+  display: flex;
+  gap: 0.5rem;
+  flex-direction: column;
+  padding: 0.5rem;
+}
+
+.sbhr-news-cntn-h {
+  font-weight: 500;
+  color: grey;
+}
+
+.sbhr-cntn {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #2f3645;
+}
+
+.subhero-news-i {
+  font-size: 1.2rem;
+}
+
+@media screen and (max-width: 1072px) {
+  .sub-hero-news-box {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .sub-hero-top {
+    padding: 0;
+  }
+
+  .sub-hero-main-news-box {
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 100%;
+  }
+
+  .sub-hero-news-box {
+    display: flex;
+    gap: 0.5rem;
+    flex-direction: row;
+    width: 100%;
+  }
+
+  .subhero-img-box {
+    width: 50%;
+  }
+
+  .subhero-img {
+    max-width: auto;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .subhero-news-cntn {
+    display: flex;
+    gap: 0.5rem;
+    flex-direction: column;
+    padding: 0.5rem;
+    width: 50%;
+  }
+
+  .sbhr-news-cntn-h {
+    font-weight: 500;
+    color: grey;
+  }
+
+  .sbhr-cntn {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #2f3645;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4;
+    line-clamp: 4;
+  }
+
+  .subhero-news-i {
+    font-size: 1.2rem;
+  }
+}

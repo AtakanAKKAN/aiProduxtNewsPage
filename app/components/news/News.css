@@ -1,0 +1,30 @@
+.news-main-box {
+  min-height: fit-content;
+  background-color: #eeedeb;
+  display: flex;
+  max-width: 100%;
+  padding: 2rem 0;
+}
+
+.news-left-box {
+  width: 65%;
+}
+
+.news-right-box {
+  width: 35%;
+}
+
+@media screen and (max-width: 1072px) {
+  .news-main-box {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .news-left-box {
+    width: 100%;
+  }
+
+  .news-right-box {
+    width: 100%;
+  }
+}
