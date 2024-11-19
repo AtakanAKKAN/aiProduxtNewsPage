@@ -9,6 +9,8 @@ haberleri gerçek zamanlı (veya gerçeğe yakın) olarak çekecektir. Her yeni 
 bildirimleri gönderilecek ve haberlerin yayınlanma saatlerini görsel bir grafikte göstererek,
 takip edilen kaynakların hangi saatlerde aktif olduğunun kolayca anlaşılmasını sağlayacaktır.
 
+https://youtu.be/p3d98WNOcnk // Demo videosu. Veri kısıtlamasından dolayı görseller ve yazılar taklit edilmiştir. Api'den gelicek olun görseller ve içerikler ilgili kısımlara yerleşecektir. 
+
 - Projenin nasıl çalıştırılacağına dair adımlar:
   1.Adım: Projenin bulunduğu GitHub kaynak deposunu bilgisayarınıza klonlayın: git clone <depo-linki />
   2.Adım: Klonlama tamamlandıktan sonra proje dizinine geçiş yapın: cd <Mulakat>
